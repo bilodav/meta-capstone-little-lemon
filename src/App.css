@@ -287,6 +287,48 @@
   border-radius: 16px;
 }
 
+/* ---- RESERVATIONS SECTION ---- */
+.hero-reservations {
+  background-color: var(--primary-color-green);
+  height: 55vh;
+}
+
+.hero-container-reservations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 75%;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+/* ---- PHOTOS SECTION ---- */
+.photos {
+  padding: 40px;
+  height: 58vh;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.photos-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vh;
+  margin-bottom: 32px;
+}
+
+.photos-header button {
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 /* ---- FOOTER ---- */
 .footer {
   background-color: var(--primary-color-green);
